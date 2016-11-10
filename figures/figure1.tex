@@ -1,0 +1,21 @@
+\documentclass[10pt]{article}
+\usepackage[usenames]{color} %used for font color
+\usepackage{amssymb} %maths
+\usepackage{amsmath} %maths
+\usepackage[utf8]{inputenc} %useful to type directly diacritic characters
+\begin{document}
+Model: 
+\[
+\hat L(k+1) = e^{-R_{1L} \Delta t} \hat L(k) -k_{PL} \frac{e^{-(R_{1P}+k_{PL})\Delta t} - e^{-R_{1L}\Delta t}}{R_{1P} - R_{1L} + k_{PL}} P(k)
+\]
+
+Loss: 
+\[
+L(\theta_i | Y_i) = \| L_i - \hat L(P_i, \theta_i) \|_2 
+\]
+
+Regularization:
+\[
+r(\theta) = \lambda_1 \| \nabla \theta \|_1 + \lambda_2 \|\theta\|_2^2 
+\]
+\end{document}
