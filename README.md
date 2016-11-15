@@ -1,5 +1,5 @@
 # ISMRM-2017
-Code and data to generate figures from the abstract "Spatio-temporally constrained reconstruction for hyperpolarized carbon-13 MRI using kinetic models" that was ultimately not submitted. 
+Code and data to generate figures from the abstract "Spatio-temporally constrained reconstruction for hyperpolarized carbon-13 MRI using kinetic models" submitted to the ISMRM Annual Meeting. 
 
 Requires the following python packages:
 * numpy
